@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.test.roaddetails.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 4.195 sec <<< FAILURE! - in com.test.roaddetails.RunCukesTest
+Then the road  a223 should be displayed as invalid(Scenario: Road ID is invalid)  Time elapsed: 0.006 sec  <<< ERROR!
+java.io.FileNotFoundException: https://api.tfl.gov.uk/Road/a223?app_id=4a75af26&app_key=9be8231002849a9ba64ed977d67d1469
+Caused by: java.io.FileNotFoundException: https://api.tfl.gov.uk/Road/a223?app_id=4a75af26&app_key=9be8231002849a9ba64ed977d67d1469
+
+Scenario: Road ID is invalid  Time elapsed: 0.008 sec  <<< ERROR!
+java.io.FileNotFoundException: https://api.tfl.gov.uk/Road/a223?app_id=4a75af26&app_key=9be8231002849a9ba64ed977d67d1469
+Caused by: java.io.FileNotFoundException: https://api.tfl.gov.uk/Road/a223?app_id=4a75af26&app_key=9be8231002849a9ba64ed977d67d1469
+
